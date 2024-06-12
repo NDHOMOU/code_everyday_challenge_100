@@ -1,0 +1,60 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    
+}
+
+   /* Body colorié */
+body {
+    margin-top: 22%;
+    margin-left: 50%;
+    background-color: blue;
+  
+}
+
+    /* modeliser le bouton*/
+div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 4%;
+    height: 50px;
+    
+    
+    background-color: #fff;
+    border: none;
+    
+   
+   
+}
+
+    /* modeliser l'input*/
+input {
+    z-index: 0;
+    display: none;
+    height: 42px;
+    width: 200px;
+    border: none;
+    margin-left: 10px;
+}
+span{
+    position: relative;
+    z-index: 1;
+}
+
+span:hover {
+    cursor: pointer;
+}
+
+     /* modeliser le bouton qui se reduit au click*/
+
+
+
+
+
+
+ 
+
+
