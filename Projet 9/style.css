@@ -1,0 +1,41 @@
+
+* {
+    box-sizing: border-box;
+    
+    
+}
+
+body {
+    background-color: darkorchid;
+}
+
+div {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   height: 85vh;
+   width: 12vw; 
+   position: relative; 
+
+  
+}
+
+ figcaption {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 7vh;
+    background-color: indigo;
+    width: 30vw;
+    border-radius: 5px;
+    border-collapse: collapse;
+    margin-right: 5px;
+}
+
+
+.box {
+    display: flex; 
+    box-shadow: (1, 1 ,1 ,4.8) ;
+}
+
